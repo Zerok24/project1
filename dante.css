@@ -1,3 +1,7 @@
+/*
+  HEADER START
+*/
+
 *{
     margin: 0%;
     padding: 0%;
@@ -19,9 +23,7 @@ header > .top-header{
 .bottom-header{
     display: flex;
     flex-direction: row;
-    /* flex-wrap: nowrap; */
     margin-bottom: 3vh;
-
 }
 
 .header-item{
@@ -33,37 +35,30 @@ header > .top-header{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
+/*
+    HEADER -END
+*/
 
-.image{
+.container{
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 
 }
 
-.inner{
-
-    /* width: 80%; */
-    max-width: 50em;
-    align-self: center;
-    margin-top: 2em;
+.left > img{
+    width: 30em;
+    border-bottom-right-radius: 20%;
 }
 
-@media(max-width: 800px){
+.left > figcaption{
 
-
-    .inner{
-        width: 80%;
-    }
-    .bottom-header{
-        width: 80%;
-        justify-content: space-around;
-    }
-
+    font-size: 3em;
+    text-align: center;
 }
 
 
+.right{
+    margin-left: 50px ;
+}
 
