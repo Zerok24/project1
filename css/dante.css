@@ -61,9 +61,6 @@ header > .top-header{
     margin-left: 50px ;
 }
 
-.biography > h1{
-    /* margin-top: 10px; */
-}
 
 .biography > p{
 
@@ -106,6 +103,24 @@ header > .top-header{
         
         width: 100%;
         border-bottom-right-radius: 0;
+    }
+
+    .left > figcaption{
+
+        display: none;
+        /* font-size: 0; */
+    }
+
+    .biography > h1{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .list-works{
+
+        display: inline-block;
+
     }
 
 }
