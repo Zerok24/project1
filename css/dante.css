@@ -11,11 +11,9 @@ header{
     display: flex;
     flex-direction: column;    
     align-items: center;
-    /* border: 3px solid gold; */
 }
 
 header > .top-header{
-
     margin-top: 3vh;
     margin-bottom: 3vh;
 }
@@ -27,7 +25,6 @@ header > .top-header{
 }
 
 .header-item{
-
     margin-left: 2vh;
     margin-bottom: 5px;
     text-decoration: none;
@@ -40,10 +37,9 @@ header > .top-header{
 */
 
 .container{
-
     display: flex;
-    flex-direction: row;
-
+    width: 70%;
+    margin: 0 auto;
 }
 
 .left > img{
@@ -63,7 +59,6 @@ header > .top-header{
 
 
 .biography > p{
-
     margin-right: 5px;
     line-height: 1.5em;
 }
@@ -80,7 +75,6 @@ header > .top-header{
 }
 
 .list-works > figure> img{
-
     border-radius: 10%;
     width: 10em;
     height: 13em;
@@ -90,7 +84,6 @@ header > .top-header{
 
 .list-works > figure> figcaption{
     text-align: center;
-    /* line-height: 5em; */
 }
 
 
@@ -98,18 +91,16 @@ header > .top-header{
     .container{
         flex-direction: column;
         justify-content: flex-start;
+        width: 100%;
     }
 
     .left > img{
-        
         width: 100%;
         border-bottom-right-radius: 0;
     }
 
     .left > figcaption{
-
         display: none;
-        /* font-size: 0; */
     }
     .right{
         margin-left: 0;
@@ -123,30 +114,25 @@ header > .top-header{
     }
 
     .biography > p{
-
         text-align: center;
-        /* margin-left: 5px; */
         padding: 0%;
         margin: 0;
         line-height: 1.5em;
     }
 
-    .list-works > figure{
+    .works > h1{
+        text-align: center;
+    }
 
-        /* display: inline-block;
-        padding-right: 5px;
-        padding-left: 5px; */
+    .list-works{
+        justify-content: space-around;
     }
 
     .list-works > figure> img{
-        /* display: block; */
         border-radius: 10%;
         margin-left: 1em;
         width: 5em;
         height: 7em;
     }
-
-
-
 }
 
