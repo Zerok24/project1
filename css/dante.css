@@ -97,6 +97,7 @@ header > .top-header{
 @media (max-width: 800px) {
     .container{
         flex-direction: column;
+        justify-content: flex-start;
     }
 
     .left > img{
@@ -110,6 +111,10 @@ header > .top-header{
         display: none;
         /* font-size: 0; */
     }
+    .right{
+        margin-left: 0;
+        margin: 12px;
+    }
 
     .biography > h1{
         margin-top: 15px;
@@ -121,6 +126,8 @@ header > .top-header{
 
         text-align: center;
         /* margin-left: 5px; */
+        padding: 0%;
+        margin: 0;
         line-height: 1.5em;
     }
 
