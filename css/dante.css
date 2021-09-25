@@ -57,8 +57,56 @@ header > .top-header{
     text-align: center;
 }
 
-
 .right{
     margin-left: 50px ;
+}
+
+.biography > h1{
+    /* margin-top: 10px; */
+}
+
+.biography > p{
+
+    margin-right: 5px;
+    line-height: 1.5em;
+}
+
+.works > h1{
+    margin-top: 10px;
+}
+
+.list-works{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-works > figure> img{
+
+    border-radius: 10%;
+    width: 10em;
+    height: 13em;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.list-works > figure> figcaption{
+    text-align: center;
+    /* line-height: 5em; */
+}
+
+
+@media (max-width: 800px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .left > img{
+        
+        width: 100%;
+        border-bottom-right-radius: 0;
+    }
+
 }
 
