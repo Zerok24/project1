@@ -1,3 +1,7 @@
+/*
+  HEADER START
+*/
+
 *{
     margin: 0%;
     padding: 0%;
@@ -10,7 +14,6 @@ header{
 }
 
 header > .top-header{
-
     margin-top: 3vh;
     margin-bottom: 3vh;
 }
@@ -19,11 +22,9 @@ header > .top-header{
     display: flex;
     flex-direction: row;
     margin-bottom: 3vh;
-
 }
 
 .header-item{
-
     margin-left: 2vh;
     margin-bottom: 5px;
     text-decoration: none;
@@ -31,35 +32,45 @@ header > .top-header{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
+/*
+    HEADER -END
+*/
+body{
+    background-color: #ededed;
+    /* color: #757575; */
+}
 
-.image{
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width:1000px;
 
+}
+section > h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-block{
+    /* margin-top: 20px; */
+}
+
+.image-container{
     display: flex;
     justify-content: center;
-    
 }
 
-.inner{
-    max-width: 50em;
-    margin-top: 2em;
-}
+.image-container > img{
 
-@media(max-width: 800px){
-
-
-    .inner{
-        width: 80%;
-    }
-    .bottom-header{
-        width: 80%;
-        justify-content: space-around;
-    }
-
-    .inner{
-        width: 100%;
-    }
+    max-width: 55em;
+    margin-top: 20px;
 
 }
 
+.space{
 
+    margin-top: 500px;
+
+}
 
