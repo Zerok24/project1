@@ -12,7 +12,7 @@ header{
     align-items: center;
 }
 
-header > .top-header{
+.top-header{
     font-family: "dearest";
     margin-top: 3vh;
     margin-bottom: 3vh;
@@ -51,6 +51,7 @@ header > .top-header{
 @media(max-width: 800px){
 
     header{
+        display: flex;
         width: 100%;
     }
 
@@ -59,7 +60,11 @@ header > .top-header{
     }
     .bottom-header{
         width: 80%;
-        justify-content: space-between;
+        justify-content: space-around;
+    }
+    
+    .top-header{
+        font-size: 20px;
     }
 
     .inner{
