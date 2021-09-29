@@ -65,14 +65,13 @@ header{
     }
 
     .bottom-header{
-        width: 80%;
         justify-content: space-around;
     }
-    
-    .top-header{
-        font-size: 20px;
+    .header-item{
+        margin-left: 1vh;
+        margin-right: 1vh;
     }
-
+    
     .inferno > img, .purgatorio > img, .paradiso>img{
         width: 100%;
     }

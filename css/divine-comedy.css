@@ -91,6 +91,11 @@ section > h1{
     .container{
         width: 100%;
     }
+    .header-item{
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+    
 
     .image-container > img{
 

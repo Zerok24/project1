@@ -75,6 +75,12 @@ header{
 
 @media (max-width: 800px) {
 
+    .header-item{
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+    
+
     .container{
         width: 100%;
     }

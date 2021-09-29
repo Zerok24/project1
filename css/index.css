@@ -49,23 +49,21 @@ header{
 }
 
 @media(max-width: 800px){
-
+/* 
     header{
         display: flex;
         width: 100%;
-    }
+    } */
 
     .inner{
         width: 80%;
     }
-    .bottom-header{
-        width: 80%;
-        justify-content: space-around;
+
+    .header-item{
+        margin-left: 1vh;
+        margin-right: 1vh;
     }
     
-    .top-header{
-        font-size: 20px;
-    }
 
     .inner{
         width: 100%;
