@@ -10,6 +10,11 @@
     font-family: "dearest";
     src: url(/fonts/Dearest.ttf);
 }
+
+body{
+    font-family: "freight-text-pro",georgia,serif;
+}
+
 header{
     display: flex;
     flex-direction: column;    
@@ -50,6 +55,11 @@ header{
     justify-content: center;
 }
 
+#inner-images{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .container > h1{
     margin-bottom: 15px;
     text-align: center;
@@ -62,9 +72,11 @@ header{
 .quote > p{
     text-align: center;
     margin-top: 15px;
-    width: 400px;
     margin: 0 auto;
     margin-top: 16px;
+    width: 720px;
+    line-height: 1.7;
+    font-size: 1.1rem;
 }
 
 .space-bottom{
@@ -84,14 +96,14 @@ header{
     .container{
         width: 100%;
     }
-    .container > img{
+    .image-container > img{
 
         width: 100%;
 
     }
 
     .quote > p{
-        width: 100%;
+        width: 80%;
     }
 
 

@@ -10,6 +10,11 @@
     src: url(/fonts/Dearest.ttf);
 }
 
+body{
+    font-family: "freight-text-pro",georgia,serif;
+}
+
+
 header{
     display: flex;
     flex-direction: column;    
@@ -59,12 +64,16 @@ header{
 
 .right{
     margin-left: 50px ;
+    height: 40em;
+    overflow-y: auto;
 }
+
 
 
 .biography > p{
     margin-right: 5px;
-    line-height: 1.5em;
+    line-height: 1.7;
+    font-size: 1.1rem;
 }
 
 .works > h1{
@@ -91,7 +100,7 @@ header{
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
     
     .header-item{
         margin-left: 1vh;
