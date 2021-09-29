@@ -6,6 +6,9 @@
     font-family: "dearest";
     src: url(/fonts/Dearest.ttf);
 }
+body{
+    font-family: "freight-text-pro",georgia,serif;
+}
 header{
     display: flex;
     flex-direction: column;    
