@@ -78,11 +78,6 @@ section > h1{
 
 }
 
-.space{
-
-    margin-top: 500px;
-
-}
 
 
 @media(max-width: 1000px){
@@ -95,7 +90,6 @@ section > h1{
         margin-right: 1vh;
     }
     
-
     .image-container > img{
 
         max-width: 90%;

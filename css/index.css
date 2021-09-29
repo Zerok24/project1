@@ -49,6 +49,7 @@ header{
 .inner{
     max-width: 50em;
     margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 @media(max-width: 800px){
