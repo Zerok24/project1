@@ -56,7 +56,7 @@ header{
     justify-content: center;
 }
 
-#inner-images{
+.inner-images{
     margin-top: 30px;
     margin-bottom: 30px;
 }
