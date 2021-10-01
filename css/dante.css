@@ -71,9 +71,8 @@ header{
 
 .right{
     width: 40em;
-    /* margin-left: 50px ; */
-    /* height: 38em; */
-    /* overflow-y: auto; */
+    margin-bottom: 30px;
+
 }
 
 
@@ -164,6 +163,7 @@ header{
         margin-left: 1em;
         width: 5em;
         height: 7em;
+
     }
 }
 
