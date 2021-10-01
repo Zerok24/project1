@@ -57,24 +57,16 @@ header{
     .bottom-header{
         font-size: 15px;
     }
-
-    .bottom-header{
-        font-size: 15px;
-    }
     
     .inner{
-        width: 80%;
+        width: 90%;
     }
 
     .header-item{
         margin-left: 1vh;
         margin-right: 1vh;
     }
-    
 
-    .inner{
-        width: 100%;
-    }
 
 }
 
