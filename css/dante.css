@@ -56,17 +56,15 @@ header{
 
 .left{
     text-align: center;
+    
 }
+
+.left > h1{
+    margin-bottom: 20px;
+}
+
 .left > img{
     width: 40em;
-    /* height: 40em; */
-    /* border-bottom-right-radius: 20%; */
-}
-
-.left > figcaption{
-
-    font-size: 3em;
-    text-align: center;
 }
 
 .right{
@@ -74,8 +72,6 @@ header{
     margin-bottom: 30px;
 
 }
-
-
 
 .biography > p{
     margin-right: 5px;
@@ -114,6 +110,9 @@ header{
         margin-right: 1vh;
     }
     
+    .bottom-header{
+        font-size: 15px;
+    }
 
     .container{
         flex-direction: column;
@@ -126,8 +125,9 @@ header{
         border-bottom-right-radius: 0;
     }
 
-    .left > figcaption{
-        display: none;
+    .left > h1{
+
+        margin-bottom: 20px;
     }
     .right{
         width: 100%;

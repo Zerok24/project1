@@ -59,6 +59,10 @@ header{
         width: 100%;
     } */
 
+    .bottom-header{
+        font-size: 15px;
+    }
+    
     .inner{
         width: 80%;
     }

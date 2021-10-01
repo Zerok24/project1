@@ -107,6 +107,10 @@ form{
         margin-left: 1vh;
         margin-right: 1vh;
     }
+
+    .bottom-header{
+        font-size: 15px;
+    }
     
 
     .container{
@@ -120,6 +124,14 @@ form{
 
     .quote > p{
         width: 80%;
+    }
+    #comedia{
+        visibility: hidden;
+    }
+    #comedia::after{
+        
+        content: "Comedia";
+        visibility: visible;
     }
 
 

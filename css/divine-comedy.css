@@ -92,6 +92,10 @@ section > h1{
         margin-left: 1vh;
         margin-right: 1vh;
     }
+    .bottom-header{
+        font-size: 15px;
+    }
+    
     
     .image-container > img{
 
